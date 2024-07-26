@@ -1,4 +1,4 @@
-# Roblox FSM Workflow
+# FSM Workflow Written in Lua
  
 This is a code-architecture workflow which takes care of all garbage cleaning to prevent memory leaks, and also organizes your code pretty well.
 
