@@ -72,7 +72,7 @@ function StateMachine.Create(scriptInst, mod, defaultState)
         if stateMod.Name == mod.State.Name then
             mod:ChangeState(defaultState)
         end
-        mod.States[stateMod.Name] = require(stateMod)
+        mod.States[stateMod.Name] = nil
     end
 
     mod:ChangeState(defaultState)
